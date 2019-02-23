@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Pile of Shame",
+  "version": "1.0",
+  "description": "Send old tabs to the pile of shame bookmarks folder",
+  "homepage_url": "https://github.com/bkersten/pile-of-shame",
+  "icons": {
+    "48": "icons/main.svg"
+  },
+  "permissions": [
+    "alarms",
+    "bookmarks",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "options_ui": {
+    "browser_style": true,
+    "page": "options.html"
+  },
+  "page_action": {
+    "default_icon": "icons/enabled.svg",
+    "default_title": "Disable Pile of Shame"
+  }
+}

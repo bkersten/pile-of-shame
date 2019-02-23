@@ -1,0 +1,12 @@
+{
+  "name": "PileOfShame",
+  "version": "1.0.0",
+  "description": "Send old tabs to the pile of shame bookmarks folder",
+  "main": "src/index.js",
+  "author": "Ben Kersten",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "web-ext": "^2.3.1"
+  }
+}
