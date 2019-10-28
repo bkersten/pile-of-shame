@@ -12,7 +12,9 @@ yarn install
 ### Running
 
 ```bash
-web-ext run -s ./src --browser-console
+web-ext run -s ./src -t firefoxdeveloperedition
+# -or-
+npm run start:firefox -- --firefox=firefoxdeveloperedition
 ```
 
 ### Building for distribution
